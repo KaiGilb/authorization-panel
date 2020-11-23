@@ -28,6 +28,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-control
 * +1 csarven: Wide use. Any agent having the ability to change access controls has wide use. Required for [ap]. [d].
 * +1 jaxoncreed:
 * +3 timbl:
+* +3 KaiGilb: graphMetrix
 
 ### Read-write access
 URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-write
@@ -37,6 +38,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-write
 * +1 csarven: Wide use. Required for [ap]. [d].
 * +1 jaxoncreed:
 * +3 timbl:
+* +3 KaiGilb: graphMetrix
 
 
 ### Read-append access
@@ -46,6 +48,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-readappend
 * +1 justinwb:
 * +1 elf-pavlik:
 * csarven: The resume resource is assumed to be simple ie. a single unit, and there is no assumption about it being a dynamic or compound resource. UC #basic-readappend assumes an append operation that can add information to a specific part of a resource ie. the references section. An agent can append information to a resource (as in #basic-appendonly) but there is no guarantee or validation assumed to take place as part of the use case - hence, other requirements needs to be met in parallel for this use case to actually work.
+* +3 KaiGilb: graphMetrix
 
 #### Alice stores Danielle's recommendation
 URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-readappend-single-storage
@@ -54,6 +57,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-readappend-singl
 * +1 elf-pavlik:
 * +1 csarven: Generally worth doing. This UC implies a requirement that ensures data integrity.
 * +1 jaxoncreed:
+* +3 KaiGilb: graphMetrix "Im thinking of append as add, like read files and add files. Im not sure how practical above use case is, but maybe in other sitations, like a list of things.
 
 #### Danielle stores their own recommendation
 URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-readappend-multi-storage
@@ -62,6 +66,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-readappend-multi
 * +1 elf-pavlik:
 * +1 csarven: [d] such that agent A sends a notification about the recommendation to agent B's inbox ie. #collection-readappend , instead of updating a resource that references it.
 * +1 jaxoncreed:
+* +3 KaiGilb: graphMetrix
 
 ### Append-only access
 URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-appendonly
@@ -71,6 +76,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-appendonly
 * +1 csarven: Convoluted scenario but the use case has wide use. [d] with some variations.
 * +1 jaxoncreed:
 * +3 timbl:
+* +3 KaiGilb: graphMetrix
 
 ### Removing access
 URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-removing
@@ -80,6 +86,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-removing
 * +1 csarven: Wide use. This UC is possibly a duplicate of #basic-control. [d].
 * +1 jaxoncreed:
 * +3 timbl:
+* +3 KaiGilb: graphMetrix
 
 ### Read-only access
 URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-readonly
@@ -89,6 +96,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-readonly
 * +1 csarven: Wide use. Required for [ap]. [d].
 * +1 jaxoncreed:
 * +3 timbl:
+* +3 KaiGilb: graphMetrix
 
 ### Group access
 URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-group
@@ -98,6 +106,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-group
 * +1 csarven: This should be core but can live without it. May [d]. Group management may not be common for [ap].
 * +1 jaxoncreed:
 * +3 timbl:
+* +3 KaiGilb: graphMetrix
 
 ### Public access
 URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-public
@@ -106,6 +115,7 @@ URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-public
 * +1 csarven: Wide use. Required for [ap]. [d].
 * +1 jaxoncreed:
 * +3 timbl:
+* +3 KaiGilb: graphMetrix
 
 ### Logged in access
 URL: https://solid.github.io/authorization-panel/wac-ucr/#basic-authenticated
@@ -124,6 +134,7 @@ agaist being accessed by evil people. It is about being to collect a list of int
 I know people push back on this because they don't understand it.  A huge number of things
 of web you can log in with any email address or any facebook or google account.
 This is an important aspect of onboarding and the growth os Solid.
+* +3 KaiGilb: graphMetrix
 
 ## Basic collection access
 
